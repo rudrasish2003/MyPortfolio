@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+	<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -29,6 +33,9 @@
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+body{
+	overflow-x: hidden;
+}
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -191,7 +198,7 @@
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
 			            <p><a href="https://www.linkedin.com/in/rudrasish-dutta-9b9078282/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
-							<a href="https://github.com/rudrasish2003" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+							<a href="files/Rudrasish_Resume.pdf" class="btn btn-white btn-outline-white py-3 px-4">Resume</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -288,7 +295,7 @@
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
 								<p class="mb-4">
-									<span class="number" data-number="2">0</span> <span>+</span>
+									<span class="number" data-number="4">0</span> <span>+</span>
 									<span>&nbsp; Projects completed</span>
 								</p>
 								<p><a href="https://github.com/rudrasish2003" class="btn btn-primary py-3 px-3">GitHub</a></p>
@@ -391,39 +398,72 @@
     </section> -->
 
    
-
-    <section class="ftco-section" id="project-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on Python, Tensorflow & ML.</p>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rudrasish2003/WhatsappChat_Analyzer/tree/master" class="block-20 zoom-effect" style="background-image: url('images/DALL·E 2024-10-02 17.20.04 - A visually engaging and modern rectangle-shaped image related to machine learning. The image should feature a vibrant, abstract representation of neur (1).jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://whatsappchatanalyzer-rudrasishdutta.streamlit.app/">WhatsappChat_Analyzer</a></h3>
-    <p>This web app analyzes whatsapp chat and gives various information regarding it</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href=" " class="block-20 zoom-effect" style="background-image: url('images/DALL·E 2024-10-02 17.20.04 - A visually engaging and modern rectangle-shaped image related to machine learning. The image should feature a vibrant, abstract representation of neur (1).jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://sentimentanalysisonemployeefeedback-g5slnfnwbtxwkrbiffq5xk.streamlit.app/">Sentiment Analysis on Employee Feedback</a></h3>
-                <p>The Web App analyzes sentiment of Employees through their feedback</p>
-              </div>
-            </div>
-          </div>
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+		  <div class="row justify-content-center mb-5 pb-5">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Projects</h1>
+			  <h2 class="mb-4">Projects</h2>
+			  <p>Below are the sample Data Analytics projects on Python, Tensorflow & ML.</p>
+			</div>
+		  </div>
+		  <!-- Swiper Slider -->
+		  <div class="swiper-container">
+			<div class="swiper-wrapper">
+			  <!-- Project 1 -->
+			  <div class="swiper-slide col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				  <a href="https://github.com/rudrasish2003/WhatsappChat_Analyzer/tree/master" class="block-20 zoom-effect" style="background-image: url('images/DALL·E 2024-10-02 17.20.04 - A visually engaging and modern rectangle-shaped image related to machine learning. The image should feature a vibrant, abstract representation of neur (1).jpg');">
+				  </a>
+				  <div class="text mt-3 float-right d-block">
+					<h3 class="heading"><a href="https://whatsappchatanalyzer-rudrasishdutta.streamlit.app/">WhatsappChat_Analyzer</a></h3>
+					<p>This web app analyzes WhatsApp chat and gives various information regarding it.</p>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Project 2 -->
+			  <div class="swiper-slide col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				  <a href="https://github.com/rudrasish2003/Sentiment_Analysis_on_Employee_Feedback" class="block-20 zoom-effect" style="background-image: url('images/DALL·E 2024-10-02 17.20.04 - A visually engaging and modern rectangle-shaped image related to machine learning. The image should feature a vibrant, abstract representation of neur (1).jpg');">
+				  </a>
+				  <div class="text mt-3 float-right d-block">
+					<h3 class="heading"><a href="https://sentimentanalysisonemployeefeedback-g5slnfnwbtxwkrbiffq5xk.streamlit.app/">Sentiment Analysis on Employee Feedback</a></h3>
+					<p>The Web App analyzes sentiment of employees through their feedback.</p>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Add more projects as needed -->
+			   <!-- Project 3 -->
+			   <div class="swiper-slide col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				  <a href="https://github.com/TEXT2TEXT_TRANSLATION_USING_MBART" class="block-20 zoom-effect" style="background-image: url('images/DALL·E 2024-10-02 17.20.04 - A visually engaging and modern rectangle-shaped image related to machine learning. The image should feature a vibrant, abstract representation of neur (1).jpg');">
+				  </a>
+				  <div class="text mt-3 float-right d-block">
+					<h3 class="heading"><a href="https://github.com/TEXT2TEXT_TRANSLATION_USING_MBART">Neural Network to Predict HandWritten NUmbers</a></h3>
+					<p>A Simple Neural Network used to predict handwritten digits</p>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Project 4 -->
+			  <div class="swiper-slide col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				  <a href="https://github.com/rudrasish2003/Neural_Networks-ML" class="block-20 zoom-effect" style="background-image: url('images/DALL·E 2024-10-02 17.20.04 - A visually engaging and modern rectangle-shaped image related to machine learning. The image should feature a vibrant, abstract representation of neur (1).jpg');">
+				  </a>
+				  <div class="text mt-3 float-right d-block">
+					<h3 class="heading"><a href="https://github.com/TEXT2TEXT_TRANSLATION_USING_MBART">Text Translation in 5 different Languages</a></h3>
+					<p>This project is a command-line translation tool that utilizes the MBART model from Hugging Face's Transformers library to translate English text into several Indian languages, including Hindi, Gujarati, Bengali, Tamil, and Telugu.</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!-- Add Pagination and Navigation -->
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		  </div>
+		</div>
+	  </section>
+	  
           <!-- <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
               <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
@@ -516,6 +556,7 @@
 				</div>
 			<!-- </div> -->
 		</div>
+
 	</section>
 
 
@@ -625,6 +666,38 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+  <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var swiper = new Swiper('.swiper-container', {
+      loop: false, // Disable infinite looping
+      slidesPerView: 2, // Display 2 projects at a time
+      spaceBetween: 20, // Space between slides in pixels
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        768: { // For screens wider than 768px
+          slidesPerView: 2, // Keep 2 slides visible for tablets
+        },
+        1024: { // For screens wider than 1024px
+          slidesPerView: 2, // Keep 2 slides visible for desktops
+        },
+        480: { // For smaller screens (mobile devices)
+          slidesPerView: 1, // Only 1 slide visible for small screens
+        }
+      }
+    });
+  });
+</script>
+
+  
     
   </body>
 </html>
